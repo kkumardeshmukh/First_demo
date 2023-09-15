@@ -7,7 +7,7 @@
 body{
    background-image: url(https://wallpapers.com/images/high/creative-fish-bowl-city-2sl2zdohpb09q29c.webp);
    background-size: cover;
-  // background-position: center;
+
    background-position: top;
    
 }
@@ -45,4 +45,35 @@ body{
 }
 .active{
     background-color:rgb(15, 231, 80);
+}
+.sub-menu1{
+    display: none;
+}
+
+.navbar ul li:hover .sub-menu1{
+    display: block;
+    position:absolute;
+    background-color: green;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.navbar ul li:hover .sub-menu1 ul{
+    display: block;
+    margin-top: 15px;
+}
+
+.navbar ul li:hover .sub-menu1 ul li{
+    width: 75px;
+    border-radius: 0px;
+    text-align: left;
+
+}
+
+.sub-menu2{
+    display: none;
+}
+
+.sub-menu1 ul li:hover .sub-menu2{
+    display: block;
+    
 }
