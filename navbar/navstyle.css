@@ -2,9 +2,15 @@
     padding: 0;
     margin: 0;
 }
+
+
 body{
-    background-image: url(background-image.jpg);
+   background-image: url(backgroung-image.jpg);
+
+  //  background-color: pink;
 }
+
+
 .navbar{
     background-color: green;
     text-align: center;
