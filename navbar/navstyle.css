@@ -5,9 +5,11 @@
 
 
 body{
-   background-image: url(backgroung-image.jpg);
-
-  //  background-color: pink;
+   background-image: url(https://wallpapers.com/images/high/creative-fish-bowl-city-2sl2zdohpb09q29c.webp);
+   background-size: cover;
+  // background-position: center;
+   background-position: top;
+   
 }
 
 
