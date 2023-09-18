@@ -76,10 +76,11 @@ ul li span{
    background: transparent  ;
     display: inline-flex;
     justify-content: center;
+    float: right;
     width: 40px;
     height: 40px;
     position: absolute;
-    right: 789px;
+    right: 413px;
     border-radius: 50%;
 }
 ul li span:hover{
