@@ -13,6 +13,7 @@ if(btn.innerHTML=='Dark'){
 else if(btn.innerHTML=='Light'){
     document.body.style.backgroundColor="white"
     btn.innerHTML="Dark"
+    document.getElementById("dec").style.color="yellow"
 
 }
 else{
